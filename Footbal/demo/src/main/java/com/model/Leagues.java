@@ -1,12 +1,12 @@
 package com.model;
 
 public class Leagues {
-	String country_id;
-	String country_name;
-	String league_id;
-	String league_name;
+	public String country_id;
+	public String country_name;
+	public String league_id;
+	public String league_name;
 	
-	public String getId() 
+	/*public String getId() 
 	{
 		return country_id;
 	}
@@ -37,6 +37,6 @@ public class Leagues {
 	public void setLeagueName( String country_name) 
 	{
 		this.league_name = country_name;
-	}
+	}*/
 	
 }

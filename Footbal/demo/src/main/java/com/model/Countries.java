@@ -7,8 +7,10 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @XmlRootElement
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Countries {
-	String country_id;
-	String country_name;
+	public String country_id;
+	public String country_name;
+	
+	/*
 	
 	public String getId() 
 	{
@@ -25,6 +27,6 @@ public class Countries {
 	public void setCountryName( String country_name) 
 	{
 		this.country_name = country_name;
-	}
+	}*/
 
 }
