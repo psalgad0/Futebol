@@ -1,2 +1,2 @@
 # Futebol
-Usando uma api para ir buscar informação sobre futebol e mostrar essa informação de uma outra forma 
+Utilizando uma api que fornece informação sobre resultados de futebol, classificações e localizaçoes das ligas, produzimos uma nova aplicação para amostra dos resultados pedidos à Api.
