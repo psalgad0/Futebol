@@ -9,6 +9,7 @@ pipeline {
                 withMaven(maven : 'Maven-3.6.1') {
                     sh 'ls'
                     sh 'cd demo'
+                    sh 'ls'
                     sh 'mvn clean compile'
                 }
             }
