@@ -7,6 +7,7 @@ pipeline {
             steps {
                 withMaven(maven : 'Maven-3.6.1') {
                     sh 'cd demo'
+                    sh 'deleteDir()'
                     sh 'mvn clean compile'
                 }
             }
@@ -16,6 +17,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'Maven-3.6.1') {
+                    sh 'cd demo'
                     sh 'mvn test'
                 }
             }
@@ -25,6 +27,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'Maven-3.6.1') {
+                    sh 'cd demo'
                     sh 'mvn deploy'
                 }
             }
